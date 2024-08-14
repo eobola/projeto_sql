@@ -1,0 +1,18 @@
+create table curso(id int primary key(3), curso varchar2(30), horas int(3), id_professor int(3));
+insert into curso (id, curso, horas, id_professor) values (1, "logica", 24, 1);
+insert into curso (id, curso, horas, id_professor) values (2, "python", 36, 2);
+insert into curso (id, curso, horas, id_professor) values (3, "sql", 40, 1);
+insert into curso (id, curso, horas, id_professor) values (4, "html", 16, 3);
+insert into curso (id, curso, horas, id_professor) values (5, "modl.dados", 20, 1);
+insert into curso (id, curso, horas, id_professor) values (6, "internet", 12, 2);
+insert into curso (id, curso, horas, id_professor) values (7, "github", 22, 3);
+insert into curso (id, curso, horas, id_professor) values (8, "segurança", 60, 2);
+
+
+create table professores(id int primary key, nome varchar2(30), email varchar(30), telefone varchar2(14),cadastro date);
+insert into professores(id, nome, email, telefone, cadastro) values(1, "carlos luiz", "carlosluiz@gmail.com", 11-9090-82123,  05-28-2021);
+insert into professores(id, nome, email, telefone, cadastro) values(2, "julia", "julia2024@gmail.com", 11-9295-2321,  10-15-2022);
+insert into professores(id, nome, email, telefone, cadastro) values(3, "marcela", "prof.marcela@gmail.com", 11-9290-3423,  7-02-2018);
+insert into professores(id, nome, email, telefone, cadastro) values(4, "leonardo", "leo_prof@gmail.com", 11-9092-0022,  11-24-2020);
+insert into professores(id, nome, email, telefone, cadastro) values(5, "hugo", "hugo2@gmail.com", 11-9902-2312,  11-18-2018);
+insert into professores(id, nome, email, telefone, cadastro) values(6, "silas", "sila.s@gmail.com", 11-9293-9022, 05-15-2022);
